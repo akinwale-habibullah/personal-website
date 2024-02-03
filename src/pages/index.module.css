@@ -1,0 +1,49 @@
+.container{
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.image{
+  height: 300px;
+  border-radius: 10%;
+  width: 20%;
+}
+
+.herocontentcontainer {
+  width: 70%;
+}
+
+.contentsubtitle {
+  font-size: 70px;
+}
+
+.contenttext {
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+
+
+@media screen and (max-width: 996px) {
+  .container{
+    height: 100vh;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imagerounded{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+  }
+}
